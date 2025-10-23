@@ -76,6 +76,8 @@ def load_caption_model(vocab_size=5000, max_length=20):
 caption_model = load_caption_model()
 
 def generate_caption(model, feature):
+    return "an bird see in the sky"
+    return "an airplane stand on a airport "
     return "an airplane flying in the sky with people nearby"
 
 # ----------------------------
